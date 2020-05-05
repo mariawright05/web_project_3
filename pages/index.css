@@ -58,7 +58,9 @@
 .main {
 }
 
-.section {}
+.section {
+  max-width: 1184px;
+}
 
 .section_narrow {
   margin-left: 100px;
@@ -163,7 +165,16 @@
 
 }
 
-.photo-grid__item {}
+.photo-grid__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 16px 16px;
+}
+
+.photo-grid__item {
+  margin: 0;
+  object-fit: cover;
+}
 
 
 /* places section */
