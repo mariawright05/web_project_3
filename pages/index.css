@@ -162,7 +162,7 @@
 
 /* photo grid section */
 .photo-grid {
-
+  margin-bottom: 52px;
 }
 
 .photo-grid__container {
@@ -180,17 +180,28 @@
 /* places section */
 .places {}
 
-.places__container {}
+.places__container {
 
-.place {}
+}
 
-.place__title {}
+.place {
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-gap: 40px;
+  padding: 40px 0;
+}
 
-.place__column {}
+.place__title {
+  margin: 0;
+}
+
+.place__cell-wrapper {}
 
 .place__image {}
 
 .section-title {}
+
+.place__link {}
 
 .place__url-heading {}
 
