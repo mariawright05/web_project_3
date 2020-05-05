@@ -1,0 +1,7 @@
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 984px;
+  margin: 0 auto;
+  align-items: baseline;
+}
