@@ -311,7 +311,9 @@
   align-items: center;
 }
 
-.footer__menu {}
+.footer__menu {
+  display: flex;
+}
 
 .footer__menu-link {
   text-decoration: none;
