@@ -1,7 +1,7 @@
 .cover__background {
   min-height: 740px;
   color: #fff;
-  background-image: url(/images/route_66.jpg);
+  background-image: url(../../../images/route_66.jpg);
   display: flex;
   flex-direction: column;
   justify-content: center;
