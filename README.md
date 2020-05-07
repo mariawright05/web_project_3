@@ -1,8 +1,11 @@
 # Project 3: From Portland to Portland
 
+<<<<<<< HEAD
 ## Project Link
 https://mariawright05.github.io/web_project_3/
 
+=======
+>>>>>>> 464bbdcca644b28b554b2cee1a0ee41067a69bde
 ## Project Description:
 This project is showcasing the knowledge learned from Practicum's class: Adaptive Web Designs and Working with Layouts.
 
