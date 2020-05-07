@@ -10,7 +10,6 @@
 .place {
   display: grid;
   grid-template-columns: 460px 484px;
-  grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 40px;
   grid-row-gap: 48px;
   padding: 40px 0;
@@ -28,11 +27,14 @@
   .place {
     grid-template-columns: 340px 352px;
     grid-column-gap: 28px;
+    padding: 36px 0;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .url {
-    display: none;
+  .place {
+    padding: 24px 0;
+    grid-row-gap: 16px;
+    grid-template-columns: 320px;
   }
 }

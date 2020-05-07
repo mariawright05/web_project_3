@@ -6,7 +6,20 @@
 
 @media screen and (max-width: 1024px) {
   .footer__container {
-    max-width: 928px;
+    max-width: calc(100% - 96px);
     margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__container {
+    max-width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__container {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }

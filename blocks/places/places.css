@@ -1,1 +1,8 @@
 @import url(./__container/places__container.css);
+
+@media screen and (max-width: 320px) {
+  .places {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}

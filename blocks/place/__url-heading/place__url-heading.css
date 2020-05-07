@@ -6,3 +6,9 @@
   letter-spacing: 0.2em;
   color: #aaa;
 }
+
+@media screen and (max-width: 320px) {
+  .place__url-heading {
+    display: none;
+  }
+}

@@ -5,3 +5,9 @@
   margin: 0 auto;
   align-items: baseline;
 }
+
+@media screen and (max-width: 320px) {
+  .header__content {
+    align-items: center;
+  }
+}
