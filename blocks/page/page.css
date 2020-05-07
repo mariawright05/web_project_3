@@ -1,4 +1,4 @@
-@import url(./__container/page__container.css);
+@import url('./__container/page__container.css');
 
 .page {
   -webkit-font-smoothing: antialiased;
@@ -9,6 +9,6 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility; 
   background-color: #2A2C2F;
-  font-family: 'Inter', Helvetica, sans-serif;
+  font-family: 'Inter', 'Helvetica', sans-serif;
   color: #fff;
 }

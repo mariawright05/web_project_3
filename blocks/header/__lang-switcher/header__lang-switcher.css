@@ -4,5 +4,5 @@
   margin: 0;
   display: flex;
   justify-content: space-between;
-  width: calc(29px*2 + 18px);
+  width: calc(29px * 2 + 18px);
 }
