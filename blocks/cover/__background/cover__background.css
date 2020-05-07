@@ -1,11 +1,7 @@
 .cover__background {
   min-height: 740px;
   color: #fff;
-<<<<<<< HEAD
   background-image: url(../../../images/route_66.jpg);
-=======
-  background-image: url(./images/route_66.jpg);
->>>>>>> 464bbdcca644b28b554b2cee1a0ee41067a69bde
   display: flex;
   flex-direction: column;
   justify-content: center;
