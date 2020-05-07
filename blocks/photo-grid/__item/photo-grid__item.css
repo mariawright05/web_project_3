@@ -1,4 +1,9 @@
 .photo-grid__item {
-  margin: 0;
-  object-fit: cover;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid__item {
+    
+  }
 }

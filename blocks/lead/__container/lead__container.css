@@ -4,5 +4,12 @@
   align-items: center;
   position: relative;
   padding-bottom: 22px;
-  margin-bottom: 100px;  
+  margin-bottom: 100px;
+  max-width: 984px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__container {
+    max-width: 928px;
+  }
 }

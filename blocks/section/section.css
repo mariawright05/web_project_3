@@ -1,5 +1,16 @@
-@import url(./_narrow/section_narrow.css);
+/* I have added this to index.css so that the styles for .section wouldn't override it. Is that correct?
+
+@import url(./_narrow/section_narrow.css); */
 
 .section {
   max-width: 1184px;
+  margin: 0 48px;
 }
+
+@media screen and (max-width: 1024px) {
+  .section {
+    margin: 0 auto;
+  }
+}
+
+

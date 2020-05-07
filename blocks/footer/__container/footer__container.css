@@ -3,3 +3,10 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .footer__container {
+    max-width: 928px;
+    margin: 0 auto;
+  }
+}
